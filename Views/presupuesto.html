@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="../css/presupuesto.css">
+    <link rel="icon" href="../favicon.jpeg" type="image/jpeg">
+</head>
+
+<body>
+    <header>
+        <img src="../images/a-logo-for-a-restaurant-with-a-large-bol_afgjvjHMRDyDAf4ON8AxqQ_GoifVWY8TyCrrZdWkFc9QQ.jpeg" alt="Mi Logo" class="logo" width="1024px" height="1024px">
+    <h1>Reserva y Presupuesto</h1>
+    <nav class="enlaces">
+        <a href="../index.html">Inicio</a>
+        <a href="./galeria.html">Galería</a>
+        <a href="./menu.html" class="activo">Menú</a>
+        <a href="#">Presupuesto</a>
+        <a href="./contacto.html">Contacto</a>
+    </nav>
+</header>
+<main class="presupuesto">
+   
+    <form id="formularioPresupuesto">
+        <h2>Datos de contacto</h2>
+      
+        <label>Nombre:
+          <input type="text" id="nombre" maxlength="15" required>
+        </label><br>
+      
+        <label>Apellidos:
+          <input type="text" id="apellidos" maxlength="40" required>
+        </label><br>
+      
+        <label>Teléfono:
+          <input type="text" id="telefono" maxlength="9" required>
+        </label><br>
+      
+        <label>Correo electrónico:
+          <input type="email" id="email" required>
+        </label><br><br>
+      
+        <h2>Presupuesto</h2>
+      
+        <label>Producto:
+          <select id="producto">
+            <option value="100">Menu basico</option>
+            <option value="200">Menu familiar- 200€</option>
+            <option value="300">Menu deluxe- 300€</option>
+          </select>
+        </label><br>
+      
+        <label>Plazo (meses):
+          <input type="number" id="plazo" min="1" value="1">
+        </label><br>
+      
+        <label><input type="checkbox" class="extra" value="50">Bebidas (+50€)</label><br>
+        <label><input type="checkbox" class="extra" value="100">Buffet Libre (+100€)</label><br><br>
+      
+        <label>Presupuesto total:
+          <input type="text" id="total" readonly>
+        </label><br><br>
+      
+        <label><input type="checkbox" id="condiciones" required> Acepto las condiciones</label><br><br>
+      
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+      </form>
+</main>
+
+    <footer>
+       <a href="https://www.instagram.com"  target="_blank" class="div_menu">
+
+            <img src="../images/Instagram_logo_2022.svg.png" class="icono_redes" alt="logo instagram">
+
+        </a><a href="https://www.twitter.com" target="_blank"> <img src="../images/uDmdf69S_400x400.jpg" class="icono_redes" alt="logo X">
+
+        </a><a href="https://www.bereal.com" target="_blank"> <img src="../images/BeReal._Logo.svg.png" class="icono_redes" alt="logo be real">
+
+        </a><br><a href="../avisos_legales/avisoLegal.pdf" target="_blank"> aviso legal</a>
+
+        <a href="../avisos_legales/politicaCookies.pdf" target="_blank"> politica de cookies</a>
+
+        <a href="../avisos_legales/avisoConfidencialidad.pdf" target="_blank"> avisoconfidencialidad</a>
+
+        <a href="../avisos_legales/politicaPrivacidadDatos.pdf" target="_blank"> politicaprivacidad</a>
+    </footer> 
+    <script src="../java/presupuesto.js"></script>
+</body>
+
+
+</html>
