@@ -1,0 +1,183 @@
+body {
+    background-image: url("../images/0ca0ba60-59da-4aa4-9641-71057fb3c8dd.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    position: relative;
+    font-family: Arial, sans-serif;
+    z-index: 1;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/0ca0ba60-59da-4aa4-9641-71057fb3c8dd.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+.menu-container {
+    background-image: url("../images/"); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #0bff34, #200fb9);
+    border-radius: 10px;
+}
+.enlaces {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    background-color: #333;
+    padding: 15px;
+  }
+  
+  .enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .enlaces a:hover {
+    color: #ffcc00;
+  }
+.plato img {
+    max-width: 100%; 
+    max-height: 200px;
+    object-fit: contain; 
+}
+
+header {
+    background-color: #d9534f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.platillo {
+    background: red;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+}
+
+.platillo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.platillo h3 {
+    margin: 10px 0;
+}
+
+.precio {
+    font-size: 18px;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.agregar {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.agregar:hover {
+    background-color: #218838;
+}
+.logo {
+    width: 150px;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
+  .f1 {
+	width: 50px;
+	height: 50px;
+}
+.f2 {
+	width: 50px;
+	height: 50px;
+}
+
+.f3 {
+	width: 50px;
+	height: 50px;
+}
+
+.footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        margin-top: 40px;     
+  }
+.icono_redes {
+    width: 30px;
+    height: 30px;
+  }
+  h2,p{
+    color:yellow
+  }
+  .platos{
+    width: 350px;
+    height: 350px;
+  }
