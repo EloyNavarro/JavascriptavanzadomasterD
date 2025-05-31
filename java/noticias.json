@@ -1,12 +1,17 @@
 [
-  {
-      "titulo": "Nuevo evento en la ciudad",
-      "descripcion": "Se celebrará un evento el próximo mes en la plaza central.",
-      "fecha": "2025-03-12"
-  },
-  {
-      "titulo": "Avances tecnológicos",
-      "descripcion": "Una empresa local ha lanzado una nueva aplicación revolucionaria.",
-      "fecha": "2025-03-10"
-  }
+    {
+        "titulo": "Nueva carta de temporada",
+        "descripcion": "Disfruta de nuestros platos frescos con ingredientes de temporada.",
+        "fecha": "2025-05-01"
+    },
+    {
+        "titulo": "Abrimos terraza este sábado",
+        "descripcion": "Ven a disfrutar del buen tiempo con nuestra terraza al aire libre.",
+        "fecha": "2025-05-04"
+    },
+    {
+        "titulo": "Menú especial día del padre",
+        "descripcion": "Reserva tu mesa para celebrar en familia este día tan especial.",
+        "fecha": "2025-05-19"
+    }
 ]
